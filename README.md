@@ -11,11 +11,11 @@ This repository contains the following data types:
 - Multispecies communities
 - R Code to reproduce all figures and analyses
 
-*This is the data respository for the manuscript:
+*This is the data respository for the manuscript:*
 
 Ethan C. Hill, Mary J. Jarman, Claire J. Fraser, Diana F. Gao, Elizabeth R. Henry, Allison R. Fisher, Bulisa Iova, Allen Allison, and Marguerite A. Butler (in Review) A large nuclear and mitochondrial sequence dataset for phylogenetic analysis of the hyperdiverse Asterophryinae frogs of the New Guinea region with data on lifestyle, GPS coordinates, elevation, and multispecies communities with accompanying code. Submitted to Data in Brief 
 
-*And related research article:
+*And related research article:*
 
 Ethan C. Hill, Claire J. Fraser, Diana F. Gao, Mary J. Jarman, Elizabeth R. Henry, Bulisa Iova, Allen Allison, Marguerite A. Butler. 2022. Resolving the deep phylogeny: Implications for early adaptive radiation, cryptic, and present-day ecological diversity of Papuan microhylid frogs. Molecular Phylogenetics and Evolution. 177:107618. ISSN 1055-7903. https://doi.org/10.1016/j.ympev.2022.107618
 
