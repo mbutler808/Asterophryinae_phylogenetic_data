@@ -1,0 +1,1 @@
+path_to_iqtree2/iqtree2 -nt AUTO -s asterophryinae_07192022.phy --date asterophryinae_dates.txt -spp asterophryinae_partitions.nex -bb 1000 -o "UMMZ219489_Scaphiophryne_marmorata" --date-tip 0
