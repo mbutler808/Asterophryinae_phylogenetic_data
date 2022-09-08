@@ -1,4 +1,4 @@
-# Asterophryinae_phylogenetic_data
+# Asterophryinae_phylogenetic_data [![DOI](https://zenodo.org/badge/534389101.svg)](https://zenodo.org/badge/latestdoi/534389101)
 
 Data for Asterophryinae frog phylogenetic data: nuclear and mitochondrial sequence data, site and locality, lifestyle, and frog communities
 
