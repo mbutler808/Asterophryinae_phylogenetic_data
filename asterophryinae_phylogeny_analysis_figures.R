@@ -476,7 +476,7 @@ dev.off()
 tree <- bi218phylo
 tree <- ladderize(tree, right = F)
 symcol <- setNames(c("#00ff00", "#ffa500", "#ff1493", "#00bfff", "#0000ff"),
-                   c("arboreal", "fossorial", "scansorial", "semi-Aquatic", "terrestrial"))
+                   c("arboreal", "fossorial", "scansorial", "semi-aquatic", "terrestrial"))
 
 geigerSYM <- fitDiscrete(tree, lifestyle, model = "SYM", ncores = 4, control = list(method = c("subplex", "L-BFGS-B"), niter = 100))
 # geigerSYM$opt$aicc   # AICc=310
