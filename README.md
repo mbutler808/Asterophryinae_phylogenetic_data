@@ -26,10 +26,10 @@ Ethan C. Hill, Claire J. Fraser, Diana F. Gao, Mary J. Jarman, Elizabeth R. Henr
 * Table 3: **Data partitions and their best-fit evolutionary models** for sequence evolution using PartitionFinder2 allowing models to vary by locus and codon position (15 possible partitions).
 
 #### Figures
-* Figure 1: Time calibrated Bayesian inference phylogeny for 233 samples of Asterophryinae generated using BEAST2. Outgroups have been removed.
-* Figure 2: Time calibrated maximum likelihood phylogeny generated for 233 samples of Asterophryinae using IQTREE. Outgroups have been removed.
-* Figure 3: Nuclear-DNA-only time calibrated Bayesian inference phylogeny for all 236 samples of Asterophryinae generated with BEAST2.
-* Figure 4: Mitochondrial-DNA-only time calibrated Bayesian inference phylogeny for all 236 samples of Asterophryinae pruned to 218 taxa generated with BEAST2.
+* Figure 1: Time calibrated Bayesian inference phylogeny for 233 samples of Asterophryinae and three outgroups  generated using BEAST2. 
+* Figure 2: Time calibrated maximum likelihood phylogeny generated for 233 samples and three outgroups of Asterophryinae using IQTREE. 
+* Figure 3: Nuclear-DNA-only time calibrated Bayesian inference phylogeny.
+* Figure 4: Mitochondrial-DNA-only time calibrated Bayesian inference phylogeny.
 
 #### BEAST 2 Files:
 * alignment_asterophryinae_07192022.nex: aligned dataset of all 5 loci
