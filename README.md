@@ -30,6 +30,7 @@ Ethan C. Hill, Claire J. Fraser, Diana F. Gao, Mary J. Jarman, Elizabeth R. Henr
 * Figure 2: Time calibrated maximum likelihood phylogeny generated for 233 samples and three outgroups of Asterophryinae using IQTREE. 
 * Figure 3: Nuclear-DNA-only time calibrated Bayesian inference phylogeny.
 * Figure 4: Mitochondrial-DNA-only time calibrated Bayesian inference phylogeny.
+* Figure 5: The evolution of Asterophryinae lifestyle. Lifestyles were mapped onto the 218 taxa time calibrated Bayesian inference phylogeny with ancestral states reconstructed using maximum likelihood. Pies on each node show the probabilities of lifestyles at ancestral nodes generated from 2000 stochastic mappings. 
 
 #### BEAST 2 Files:
 * alignment_asterophryinae_07192022.nex: aligned dataset of all 5 loci

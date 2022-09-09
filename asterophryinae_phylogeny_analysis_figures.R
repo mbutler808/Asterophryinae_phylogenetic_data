@@ -467,6 +467,32 @@ pdf(paste("out/Fig5c_Gerebu_community.pdf"), width=4, height=7)
   community_overplot(otree, gensp, "Maru Ruama", "Maru Ruama, Mt. Gerebu")
 dev.off()
 
+
+##################################################
+####
+#### Supplementary Figures - Anc State Rec
+####
+##################################################
+tree <- bi218phylo
+tree <- ladderize(tree, right = F)
+symcol <- setNames(c("#00ff00", "#ffa500", "#ff1493", "#00bfff", "#0000ff"),
+                   c("arboreal", "fossorial", "scansorial", "semi-Aquatic", "terrestrial"))
+
+geigerSYM <- fitDiscrete(tree, lifestyle, model = "SYM", ncores = 4, control = list(method = c("subplex", "L-BFGS-B"), niter = 100))
+# geigerSYM$opt$aicc   # AICc=310
+# SYM.simmap.summary$ace # has prob anc states
+ecorate <- geiger:::.Qmatrix.from.gfit(geigerSYM) # extracts rate matrix from model
+ecorate <- round(ecorate, 5)
+
+## 2000 stochastic maps generated from geiger rate matrix
+strees <- make.simmap(tree, lifestyle, model="SYM", nsim=2000, Q = ecorate)
+SYM.simmap.summary <- summary(strees,plot=FALSE)
+
+pdf("Figure5.pdf", height = 11, width = 8.5)
+  plot(SYM.simmap.summary, colors = symcol, fsize = 0.3, ftype = "i")
+  add.simmap.legend(colors = symcol, x = 1, y = 220, prompt = F)
+dev.off()
+
 ##################################################
 ####
 #### Supplementary Figures - tree plots
@@ -478,10 +504,10 @@ require(ggplot2)
 require(treeio)
 
 # Read in the trees
-tree <- read.beast("beast_218_tree_asterophryinae.nex")
-iqtree <- read.iqtree("iqtree_218_timetree_asterophryinae.contree") 
-nuc <- read.beast("beast_tree_asterophryinae_nuclear.nex")
-mito <- read.beast("beast_tree_asterophryinae_mitochondrial.nex")
+tree <- read.beast("./BEAST2_analysis/beast_tree_asterophryinae.nex")
+iqtree <- read.iqtree("./IQTREE2_analysis/iqtree_timetree_asterophryinae.contree") 
+nuc <- read.beast("./BEAST2_analysis/beast_tree_asterophryinae_nuclear.nex")
+mito <- read.beast("./BEAST2_analysis/beast_tree_asterophryinae_mitochondrial.nex")
 
 # Function to plot the trees
 plot_SI_tree <- function(tree, ttitle="Bayesian Inference Phylogeny (BEAST2)", tipmargin=5) {
@@ -516,4 +542,22 @@ pdf(file="out/SupplementaryFigures.pdf", width=8.5, height=11)
   plot_SI_tree(nuc, "Bayesian Inference Phylogeny (BEAST2)\nNuclear Loci Only")
   plot_SI_tree(mito, "Bayesian Inference Phylogeny (BEAST2)\nMitochondrial Loci Only", tipmargin=3)
 dev.off()
+
+# Plotting figures for DiB
+pdf(file="Figure1.pdf", width=8.5, height=11)
+  plot_SI_tree(tree, "Bayesian Inference Phylogeny (BEAST2)")
+dev.off()
+
+pdf(file="Figure2.pdf", width=8.5, height=11)
+plot_SI_tree(iqtree, "Maximum Likelihood Phylogeny (IQTREE)")
+dev.off()
+
+pdf(file="Figure3.pdf", width=8.5, height=11)
+plot_SI_tree(nuc, "Bayesian Inference Phylogeny (BEAST2)\nNuclear Loci Only")
+dev.off()
+
+pdf(file="Figure4.pdf", width=8.5, height=11)
+plot_SI_tree(mito, "Bayesian Inference Phylogeny (BEAST2)\nMitochondrial Loci Only", tipmargin=3)
+dev.off()
+
 
