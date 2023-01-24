@@ -17,7 +17,7 @@ Ethan C. Hill, Mary J. Jarman, Claire J. Fraser, Diana F. Gao, Elizabeth R. Henr
 
 *And related research article:*
 
-Ethan C. Hill, Claire J. Fraser, Diana F. Gao, Mary J. Jarman, Elizabeth R. Henry, Allison R. Fisher Bulisa Iova, Allen Allison, Marguerite A. Butler. 2022. Resolving the deep phylogeny: Implications for early adaptive radiation, cryptic, and present-day ecological diversity of Papuan microhylid frogs. Molecular Phylogenetics and Evolution. 177:107618. ISSN 1055-7903. https://doi.org/10.1016/j.ympev.2022.107618
+Ethan C. Hill, Claire J. Fraser, Diana F. Gao, Mary J. Jarman, Elizabeth R. Henry, Allison R. Fisher, Bulisa Iova, Allen Allison, Marguerite A. Butler. 2022. Resolving the deep phylogeny: Implications for early adaptive radiation, cryptic, and present-day ecological diversity of Papuan microhylid frogs. Molecular Phylogenetics and Evolution. 177:107618. ISSN 1055-7903. https://doi.org/10.1016/j.ympev.2022.107618
 
 ### The repository contains: 
 #### Tables
