@@ -264,8 +264,7 @@ spec="Alignment">
                 </alignment>
             </taxonset>
         </tree>
-        <parameter id="BDBirthRate.t:Subset1" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
-        <parameter id="BDDeathRate.t:Subset1" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="birthRate.t:Subset1" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="freqParameter.s:Subset1" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset1" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset1" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
@@ -283,56 +282,54 @@ spec="Alignment">
         <parameter id="rateGT.s:Subset3" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="proportionInvariant.s:Subset3" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
         <parameter id="gammaShape.s:Subset3" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="kappa.s:Subset4" spec="parameter.RealParameter" lower="0.0" name="stateNode">2.0</parameter>
+        <parameter id="freqParameter.s:Subset4" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+        <parameter id="rateAC.s:Subset4" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateAG.s:Subset4" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateAT.s:Subset4" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateCG.s:Subset4" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateGT.s:Subset4" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="proportionInvariant.s:Subset4" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
         <parameter id="gammaShape.s:Subset4" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="freqParameter.s:Subset5" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
-        <parameter id="rateAC.s:Subset5" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="rateAG.s:Subset5" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="rateAT.s:Subset5" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="rateCG.s:Subset5" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="rateGT.s:Subset5" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="proportionInvariant.s:Subset5" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
-        <parameter id="gammaShape.s:Subset5" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="proportionInvariant.s:Subset6" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
-        <parameter id="gammaShape.s:Subset6" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="kappa.s:Subset5" spec="parameter.RealParameter" lower="0.0" name="stateNode">2.0</parameter>
         <parameter id="freqParameter.s:Subset6" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset6" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset6" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAT.s:Subset6" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateCG.s:Subset6" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:Subset6" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="proportionInvariant.s:Subset7" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
-        <parameter id="gammaShape.s:Subset7" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="proportionInvariant.s:Subset6" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+        <parameter id="gammaShape.s:Subset6" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="freqParameter.s:Subset7" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset7" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset7" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAT.s:Subset7" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateCG.s:Subset7" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:Subset7" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="gammaShape.s:Subset8" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="proportionInvariant.s:Subset7" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+        <parameter id="gammaShape.s:Subset7" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="freqParameter.s:Subset8" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset8" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset8" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAT.s:Subset8" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateCG.s:Subset8" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:Subset8" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="proportionInvariant.s:Subset9" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
-        <parameter id="gammaShape.s:Subset9" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="gammaShape.s:Subset8" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="freqParameter.s:Subset9" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset9" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset9" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAT.s:Subset9" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateCG.s:Subset9" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:Subset9" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="proportionInvariant.s:Subset10" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
-        <parameter id="gammaShape.s:Subset10" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="proportionInvariant.s:Subset9" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+        <parameter id="gammaShape.s:Subset9" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="freqParameter.s:Subset10" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset10" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset10" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAT.s:Subset10" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateCG.s:Subset10" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:Subset10" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="proportionInvariant.s:Subset10" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+        <parameter id="gammaShape.s:Subset10" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="freqParameter.s:Subset11" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset11" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset11" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
@@ -340,77 +337,74 @@ spec="Alignment">
         <parameter id="rateCG.s:Subset11" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:Subset11" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="gammaShape.s:Subset11" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="proportionInvariant.s:Subset12" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
-        <parameter id="gammaShape.s:Subset12" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="freqParameter.s:Subset12" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset12" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset12" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAT.s:Subset12" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateCG.s:Subset12" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:Subset12" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
-        <parameter id="proportionInvariant.s:Subset13" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
-        <parameter id="gammaShape.s:Subset13" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+        <parameter id="proportionInvariant.s:Subset12" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+        <parameter id="gammaShape.s:Subset12" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="freqParameter.s:Subset13" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAC.s:Subset13" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAG.s:Subset13" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateAT.s:Subset13" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateCG.s:Subset13" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:Subset13" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="proportionInvariant.s:Subset13" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+        <parameter id="gammaShape.s:Subset13" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
         <parameter id="ucldStdev.c:Subset1" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.1</parameter>
         <stateNode id="rateCategories.c:Subset1" spec="parameter.IntegerParameter" dimension="470">1</stateNode>
         <parameter id="ucldMean.c:Subset1" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="freqParameter.s:Subset4" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+        <parameter id="freqParameter.s:Subset5" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
     </state>
-    <init id="RandomTree.t:Subset7" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Subset1">
-        <taxa id="Subset7" spec="FilteredAlignment" data="@alignment_asterophryinae_07192022" filter="926-1479\3"/>
-        <populationModel id="ConstantPopulation0.t:Subset7" spec="ConstantPopulation">
-            <parameter id="randomPopSize.t:Subset7" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+    <init id="RandomTree.t:Subset4" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Subset1">
+        <taxa id="Subset4" spec="FilteredAlignment" data="@alignment_asterophryinae_07192022" filter="408-924\3"/>
+        <populationModel id="ConstantPopulation0.t:Subset4" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Subset4" spec="parameter.RealParameter" name="popSize">1.0</parameter>
         </populationModel>
     </init>
     <distribution id="posterior" spec="util.CompoundDistribution">
         <distribution id="prior" spec="util.CompoundDistribution">
-            <distribution id="BirthDeath.t:Subset1" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@BDBirthRate.t:Subset1" relativeDeathRate="@BDDeathRate.t:Subset1" tree="@Tree.t:Subset1"/>
-            <prior id="BirthRatePrior.t:Subset1" name="distribution" x="@BDBirthRate.t:Subset1">
-                <Uniform id="Uniform.39" name="distr" upper="1000.0"/>
-            </prior>
-            <prior id="DeathRatePrior.t:Subset1" name="distribution" x="@BDDeathRate.t:Subset1">
-                <Uniform id="Uniform.40" name="distr"/>
+            <distribution id="YuleModel.t:Subset1" spec="beast.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:Subset1" tree="@Tree.t:Subset1"/>
+            <prior id="YuleBirthRatePrior.t:Subset1" name="distribution" x="@birthRate.t:Subset1">
+                <Uniform id="Uniform.1" name="distr" upper="Infinity"/>
             </prior>
             <prior id="FrequenciesPrior.s:Subset1" name="distribution" x="@freqParameter.s:Subset1">
-                <Uniform id="Uniform.41" name="distr"/>
+                <Uniform id="Uniform.39" name="distr"/>
             </prior>
             <prior id="FrequenciesPrior.s:Subset10" name="distribution" x="@freqParameter.s:Subset10">
-                <Uniform id="Uniform.49" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset11" name="distribution" x="@freqParameter.s:Subset11">
-                <Uniform id="Uniform.50" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset12" name="distribution" x="@freqParameter.s:Subset12">
-                <Uniform id="Uniform.51" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset13" name="distribution" x="@freqParameter.s:Subset13">
-                <Uniform id="Uniform.52" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset3" name="distribution" x="@freqParameter.s:Subset3">
-                <Uniform id="Uniform.42" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset4" name="distribution" x="@freqParameter.s:Subset4">
-                <Uniform id="Uniform.43" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset5" name="distribution" x="@freqParameter.s:Subset5">
-                <Uniform id="Uniform.44" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset6" name="distribution" x="@freqParameter.s:Subset6">
-                <Uniform id="Uniform.45" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset7" name="distribution" x="@freqParameter.s:Subset7">
-                <Uniform id="Uniform.46" name="distr"/>
-            </prior>
-            <prior id="FrequenciesPrior.s:Subset8" name="distribution" x="@freqParameter.s:Subset8">
                 <Uniform id="Uniform.47" name="distr"/>
             </prior>
-            <prior id="FrequenciesPrior.s:Subset9" name="distribution" x="@freqParameter.s:Subset9">
+            <prior id="FrequenciesPrior.s:Subset11" name="distribution" x="@freqParameter.s:Subset11">
                 <Uniform id="Uniform.48" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset12" name="distribution" x="@freqParameter.s:Subset12">
+                <Uniform id="Uniform.49" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset13" name="distribution" x="@freqParameter.s:Subset13">
+                <Uniform id="Uniform.50" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset3" name="distribution" x="@freqParameter.s:Subset3">
+                <Uniform id="Uniform.40" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset4" name="distribution" x="@freqParameter.s:Subset4">
+                <Uniform id="Uniform.41" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset5" name="distribution" x="@freqParameter.s:Subset5">
+                <Uniform id="Uniform.42" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset6" name="distribution" x="@freqParameter.s:Subset6">
+                <Uniform id="Uniform.43" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset7" name="distribution" x="@freqParameter.s:Subset7">
+                <Uniform id="Uniform.44" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset8" name="distribution" x="@freqParameter.s:Subset8">
+                <Uniform id="Uniform.45" name="distr"/>
+            </prior>
+            <prior id="FrequenciesPrior.s:Subset9" name="distribution" x="@freqParameter.s:Subset9">
+                <Uniform id="Uniform.46" name="distr"/>
             </prior>
             <prior id="GammaShapePrior.s:Subset1" name="distribution" x="@gammaShape.s:Subset1">
                 <Exponential id="Exponential.0" name="distr">
@@ -447,11 +441,6 @@ spec="Alignment">
                     <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
                 </Exponential>
             </prior>
-            <prior id="GammaShapePrior.s:Subset5" name="distribution" x="@gammaShape.s:Subset5">
-                <Exponential id="Exponential.4" name="distr">
-                    <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
-                </Exponential>
-            </prior>
             <prior id="GammaShapePrior.s:Subset6" name="distribution" x="@gammaShape.s:Subset6">
                 <Exponential id="Exponential.5" name="distr">
                     <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
@@ -472,10 +461,10 @@ spec="Alignment">
                     <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
                 </Exponential>
             </prior>
-            <prior id="KappaPrior.s:Subset4" name="distribution" x="@kappa.s:Subset4">
+            <prior id="KappaPrior.s:Subset5" name="distribution" x="@kappa.s:Subset5">
                 <LogNormal id="LogNormalDistributionModel.0" name="distr">
-                    <parameter id="RealParameter.37" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
-                    <parameter id="RealParameter.38" spec="parameter.RealParameter" estimate="false" name="S">1.25</parameter>
+                    <parameter id="RealParameter.49" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.50" spec="parameter.RealParameter" estimate="false" name="S">1.25</parameter>
                 </LogNormal>
             </prior>
             <prior id="PropInvariantPrior.s:Subset1" name="distribution" x="@proportionInvariant.s:Subset1">
@@ -498,9 +487,6 @@ spec="Alignment">
             </prior>
             <prior id="PropInvariantPrior.s:Subset4" name="distribution" x="@proportionInvariant.s:Subset4">
                 <Uniform id="Uniform.11" name="distr"/>
-            </prior>
-            <prior id="PropInvariantPrior.s:Subset5" name="distribution" x="@proportionInvariant.s:Subset5">
-                <Uniform id="Uniform.14" name="distr"/>
             </prior>
             <prior id="PropInvariantPrior.s:Subset6" name="distribution" x="@proportionInvariant.s:Subset6">
                 <Uniform id="Uniform.17" name="distr"/>
@@ -547,10 +533,10 @@ spec="Alignment">
                     <parameter id="RealParameter.26" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                 </Gamma>
             </prior>
-            <prior id="RateACPrior.s:Subset5" name="distribution" x="@rateAC.s:Subset5">
+            <prior id="RateACPrior.s:Subset4" name="distribution" x="@rateAC.s:Subset4">
                 <Gamma id="Gamma.12" name="distr">
-                    <parameter id="RealParameter.39" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
-                    <parameter id="RealParameter.40" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    <parameter id="RealParameter.37" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.38" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                 </Gamma>
             </prior>
             <prior id="RateACPrior.s:Subset6" name="distribution" x="@rateAC.s:Subset6">
@@ -613,10 +599,10 @@ spec="Alignment">
                     <parameter id="RealParameter.28" spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter>
                 </Gamma>
             </prior>
-            <prior id="RateAGPrior.s:Subset5" name="distribution" x="@rateAG.s:Subset5">
+            <prior id="RateAGPrior.s:Subset4" name="distribution" x="@rateAG.s:Subset4">
                 <Gamma id="Gamma.13" name="distr">
-                    <parameter id="RealParameter.41" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
-                    <parameter id="RealParameter.42" spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter>
+                    <parameter id="RealParameter.39" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.40" spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter>
                 </Gamma>
             </prior>
             <prior id="RateAGPrior.s:Subset6" name="distribution" x="@rateAG.s:Subset6">
@@ -679,10 +665,10 @@ spec="Alignment">
                     <parameter id="RealParameter.30" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                 </Gamma>
             </prior>
-            <prior id="RateATPrior.s:Subset5" name="distribution" x="@rateAT.s:Subset5">
+            <prior id="RateATPrior.s:Subset4" name="distribution" x="@rateAT.s:Subset4">
                 <Gamma id="Gamma.14" name="distr">
-                    <parameter id="RealParameter.43" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
-                    <parameter id="RealParameter.44" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    <parameter id="RealParameter.41" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.42" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                 </Gamma>
             </prior>
             <prior id="RateATPrior.s:Subset6" name="distribution" x="@rateAT.s:Subset6">
@@ -745,10 +731,10 @@ spec="Alignment">
                     <parameter id="RealParameter.32" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                 </Gamma>
             </prior>
-            <prior id="RateCGPrior.s:Subset5" name="distribution" x="@rateCG.s:Subset5">
+            <prior id="RateCGPrior.s:Subset4" name="distribution" x="@rateCG.s:Subset4">
                 <Gamma id="Gamma.15" name="distr">
-                    <parameter id="RealParameter.45" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
-                    <parameter id="RealParameter.46" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    <parameter id="RealParameter.43" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.44" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                 </Gamma>
             </prior>
             <prior id="RateCGPrior.s:Subset6" name="distribution" x="@rateCG.s:Subset6">
@@ -811,10 +797,10 @@ spec="Alignment">
                     <parameter id="RealParameter.36" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                 </Gamma>
             </prior>
-            <prior id="RateGTPrior.s:Subset5" name="distribution" x="@rateGT.s:Subset5">
+            <prior id="RateGTPrior.s:Subset4" name="distribution" x="@rateGT.s:Subset4">
                 <Gamma id="Gamma.17" name="distr">
-                    <parameter id="RealParameter.49" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
-                    <parameter id="RealParameter.50" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+                    <parameter id="RealParameter.47" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                    <parameter id="RealParameter.48" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
                 </Gamma>
             </prior>
             <prior id="RateGTPrior.s:Subset6" name="distribution" x="@rateGT.s:Subset6">
@@ -842,7 +828,7 @@ spec="Alignment">
                 </Gamma>
             </prior>
             <prior id="MeanRatePrior.c:Subset1" name="distribution" x="@ucldMean.c:Subset1">
-                <Uniform id="Uniform.53" name="distr" upper="Infinity"/>
+                <Uniform id="Uniform.51" name="distr" upper="Infinity"/>
             </prior>
             <prior id="ucldStdevPrior.c:Subset1" name="distribution" x="@ucldStdev.c:Subset1">
                 <Gamma id="Gamma.66" name="distr">
@@ -877,7 +863,7 @@ spec="Alignment">
                 </taxonset>
                 <LogNormal id="LogNormalDistributionModel.3" name="distr">
                     <parameter id="RealParameter.154" spec="parameter.RealParameter" estimate="false" name="M">1.387</parameter>
-                    <parameter id="RealParameter.155" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.071</parameter>
+                    <parameter id="RealParameter.155" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
                 </LogNormal>
             </distribution>
             <distribution id="d.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:Subset1">
@@ -885,7 +871,7 @@ spec="Alignment">
                     <taxon id="BPBM17084_Copiula_oxyrhina" spec="Taxon"/>
                     <taxon id="BPBM39007_Copiula_sp.3" spec="Taxon"/>
                 </taxonset>
-                <LogNormal id="LogNormalDistributionModel.4" name="distr">
+                <LogNormal id="LogNormalDistributionModel.4" meanInRealSpace="true" name="distr">
                     <parameter id="RealParameter.156" spec="parameter.RealParameter" estimate="false" name="M">1.61</parameter>
                     <parameter id="RealParameter.157" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.11</parameter>
                 </LogNormal>
@@ -902,15 +888,10 @@ spec="Alignment">
             </distribution>
             <distribution id="f.prior" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:Subset1">
                 <taxonset id="f" spec="TaxonSet">
-                    <taxon id="BPBM31882_Paedophryne_swiftorum_complex_sp.1" spec="Taxon"/>
-                    <taxon id="BPBM47713_Paedophryne_amauensis" spec="Taxon"/>
-                    <taxon id="BPBM48036_Paedophryne_sp.2" spec="Taxon"/>
                     <taxon id="FK15527_Paedophryne_verrucosa" spec="Taxon"/>
-                    <taxon id="FK16913_Paedophryne_titan" spec="Taxon"/>
-                    <taxon id="MB291_Paedophryne_sp.1" spec="Taxon"/>
-                    <taxon id="MB486_Paedophryne_swiftorum_complex_sp.2" spec="Taxon"/>
+                    <taxon id="BPBM31882_Paedophryne_swiftorum_complex_sp.1" spec="Taxon"/>
                 </taxonset>
-                <Uniform id="Uniform.54" name="distr" upper="20.0"/>
+                <Uniform id="Uniform.52" name="distr" upper="20.0"/>
             </distribution>
         </distribution>
         <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
@@ -954,15 +935,11 @@ filter="3-407\3"/>
                     </substModel>
                 </siteModel>
             </distribution>
-            <distribution id="treeLikelihood.Subset4" spec="ThreadedTreeLikelihood" branchRateModel="@RelaxedClock.c:Subset1" tree="@Tree.t:Subset1">
-                <data
-id="Subset4"
-spec="FilteredAlignment"
-data="@alignment_asterophryinae_07192022"
-filter="408-924\3"/>
+            <distribution id="treeLikelihood.Subset4" spec="ThreadedTreeLikelihood" branchRateModel="@RelaxedClock.c:Subset1" data="@Subset4" tree="@Tree.t:Subset1">
                 <siteModel id="SiteModel.s:Subset4" spec="SiteModel" gammaCategoryCount="4" proportionInvariant="@proportionInvariant.s:Subset4" shape="@gammaShape.s:Subset4">
                     <parameter id="mutationRate.s:Subset4" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
-                    <substModel id="hky.s:Subset4" spec="HKY" kappa="@kappa.s:Subset4">
+                    <substModel id="gtr.s:Subset4" spec="GTR" rateAC="@rateAC.s:Subset4" rateAG="@rateAG.s:Subset4" rateAT="@rateAT.s:Subset4" rateCG="@rateCG.s:Subset4" rateGT="@rateGT.s:Subset4">
+                        <parameter id="rateCT.s:Subset4" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
                         <frequencies id="estimatedFreqs.s:Subset4" spec="Frequencies" frequencies="@freqParameter.s:Subset4"/>
                     </substModel>
                 </siteModel>
@@ -973,10 +950,11 @@ id="Subset5"
 spec="FilteredAlignment"
 data="@alignment_asterophryinae_07192022"
 filter="409-924\3"/>
-                <siteModel id="SiteModel.s:Subset5" spec="SiteModel" gammaCategoryCount="4" proportionInvariant="@proportionInvariant.s:Subset5" shape="@gammaShape.s:Subset5">
+                <siteModel id="SiteModel.s:Subset5" spec="SiteModel">
                     <parameter id="mutationRate.s:Subset5" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
-                    <substModel id="gtr.s:Subset5" spec="GTR" rateAC="@rateAC.s:Subset5" rateAG="@rateAG.s:Subset5" rateAT="@rateAT.s:Subset5" rateCG="@rateCG.s:Subset5" rateGT="@rateGT.s:Subset5">
-                        <parameter id="rateCT.s:Subset5" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+                    <parameter id="gammaShape.s:Subset5" spec="parameter.RealParameter" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:Subset5" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="hky.s:Subset5" spec="HKY" kappa="@kappa.s:Subset5">
                         <frequencies id="estimatedFreqs.s:Subset5" spec="Frequencies" frequencies="@freqParameter.s:Subset5"/>
                     </substModel>
                 </siteModel>
@@ -995,7 +973,12 @@ filter="925-1479\3"/>
                     </substModel>
                 </siteModel>
             </distribution>
-            <distribution id="treeLikelihood.Subset7" spec="ThreadedTreeLikelihood" branchRateModel="@RelaxedClock.c:Subset1" data="@Subset7" tree="@Tree.t:Subset1">
+            <distribution id="treeLikelihood.Subset7" spec="ThreadedTreeLikelihood" branchRateModel="@RelaxedClock.c:Subset1" tree="@Tree.t:Subset1">
+                <data
+id="Subset7"
+spec="FilteredAlignment"
+data="@alignment_asterophryinae_07192022"
+filter="926-1479\3"/>
                 <siteModel id="SiteModel.s:Subset7" spec="SiteModel" gammaCategoryCount="4" proportionInvariant="@proportionInvariant.s:Subset7" shape="@gammaShape.s:Subset7">
                     <parameter id="mutationRate.s:Subset7" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
                     <substModel id="gtr.s:Subset7" spec="GTR" rateAC="@rateAC.s:Subset7" rateAG="@rateAG.s:Subset7" rateAT="@rateAT.s:Subset7" rateCG="@rateCG.s:Subset7" rateGT="@rateGT.s:Subset7">
@@ -1092,15 +1075,14 @@ filter="1991-2475\3"/>
             </distribution>
         </distribution>
     </distribution>
-    <operator id="BirthDeathTreeScaler.t:Subset1" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Subset1" weight="3.0"/>
-    <operator id="BirthDeathTreeRootScaler.t:Subset1" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Subset1" weight="3.0"/>
-    <operator id="BirthDeathUniformOperator.t:Subset1" spec="Uniform" tree="@Tree.t:Subset1" weight="30.0"/>
-    <operator id="BirthDeathSubtreeSlide.t:Subset1" spec="SubtreeSlide" tree="@Tree.t:Subset1" weight="15.0"/>
-    <operator id="BirthDeathNarrow.t:Subset1" spec="Exchange" tree="@Tree.t:Subset1" weight="15.0"/>
-    <operator id="BirthDeathWide.t:Subset1" spec="Exchange" isNarrow="false" tree="@Tree.t:Subset1" weight="3.0"/>
-    <operator id="BirthDeathWilsonBalding.t:Subset1" spec="WilsonBalding" tree="@Tree.t:Subset1" weight="3.0"/>
-    <operator id="BirthRateScaler.t:Subset1" spec="ScaleOperator" parameter="@BDBirthRate.t:Subset1" weight="3.0"/>
-    <operator id="DeathRateScaler.t:Subset1" spec="ScaleOperator" parameter="@BDDeathRate.t:Subset1" weight="3.0"/>
+    <operator id="YuleBirthRateScaler.t:Subset1" spec="ScaleOperator" parameter="@birthRate.t:Subset1" weight="3.0"/>
+    <operator id="YuleModelTreeScaler.t:Subset1" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Subset1" weight="3.0"/>
+    <operator id="YuleModelTreeRootScaler.t:Subset1" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Subset1" weight="3.0"/>
+    <operator id="YuleModelUniformOperator.t:Subset1" spec="Uniform" tree="@Tree.t:Subset1" weight="30.0"/>
+    <operator id="YuleModelSubtreeSlide.t:Subset1" spec="SubtreeSlide" tree="@Tree.t:Subset1" weight="15.0"/>
+    <operator id="YuleModelNarrow.t:Subset1" spec="Exchange" tree="@Tree.t:Subset1" weight="15.0"/>
+    <operator id="YuleModelWide.t:Subset1" spec="Exchange" isNarrow="false" tree="@Tree.t:Subset1" weight="3.0"/>
+    <operator id="YuleModelWilsonBalding.t:Subset1" spec="WilsonBalding" tree="@Tree.t:Subset1" weight="3.0"/>
     <operator id="FrequenciesExchanger.s:Subset1" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset1"/>
     </operator>
@@ -1122,21 +1104,17 @@ filter="1991-2475\3"/>
     <operator id="RateGTScaler.s:Subset3" spec="ScaleOperator" parameter="@rateGT.s:Subset3" scaleFactor="0.5" weight="0.1"/>
     <operator id="proportionInvariantScaler.s:Subset3" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset3" scaleFactor="0.5" weight="0.1"/>
     <operator id="gammaShapeScaler.s:Subset3" spec="ScaleOperator" parameter="@gammaShape.s:Subset3" scaleFactor="0.5" weight="0.1"/>
-    <operator id="KappaScaler.s:Subset4" spec="ScaleOperator" parameter="@kappa.s:Subset4" scaleFactor="0.5" weight="0.1"/>
+    <operator id="FrequenciesExchanger.s:Subset4" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:Subset4"/>
+    </operator>
+    <operator id="RateACScaler.s:Subset4" spec="ScaleOperator" parameter="@rateAC.s:Subset4" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateAGScaler.s:Subset4" spec="ScaleOperator" parameter="@rateAG.s:Subset4" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateATScaler.s:Subset4" spec="ScaleOperator" parameter="@rateAT.s:Subset4" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateCGScaler.s:Subset4" spec="ScaleOperator" parameter="@rateCG.s:Subset4" scaleFactor="0.5" weight="0.1"/>
+    <operator id="RateGTScaler.s:Subset4" spec="ScaleOperator" parameter="@rateGT.s:Subset4" scaleFactor="0.5" weight="0.1"/>
     <operator id="proportionInvariantScaler.s:Subset4" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset4" scaleFactor="0.5" weight="0.1"/>
     <operator id="gammaShapeScaler.s:Subset4" spec="ScaleOperator" parameter="@gammaShape.s:Subset4" scaleFactor="0.5" weight="0.1"/>
-    <operator id="FrequenciesExchanger.s:Subset5" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
-        <parameter idref="freqParameter.s:Subset5"/>
-    </operator>
-    <operator id="RateACScaler.s:Subset5" spec="ScaleOperator" parameter="@rateAC.s:Subset5" scaleFactor="0.5" weight="0.1"/>
-    <operator id="RateAGScaler.s:Subset5" spec="ScaleOperator" parameter="@rateAG.s:Subset5" scaleFactor="0.5" weight="0.1"/>
-    <operator id="RateATScaler.s:Subset5" spec="ScaleOperator" parameter="@rateAT.s:Subset5" scaleFactor="0.5" weight="0.1"/>
-    <operator id="RateCGScaler.s:Subset5" spec="ScaleOperator" parameter="@rateCG.s:Subset5" scaleFactor="0.5" weight="0.1"/>
-    <operator id="RateGTScaler.s:Subset5" spec="ScaleOperator" parameter="@rateGT.s:Subset5" scaleFactor="0.5" weight="0.1"/>
-    <operator id="proportionInvariantScaler.s:Subset5" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset5" scaleFactor="0.5" weight="0.1"/>
-    <operator id="gammaShapeScaler.s:Subset5" spec="ScaleOperator" parameter="@gammaShape.s:Subset5" scaleFactor="0.5" weight="0.1"/>
-    <operator id="proportionInvariantScaler.s:Subset6" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset6" scaleFactor="0.5" weight="0.1"/>
-    <operator id="gammaShapeScaler.s:Subset6" spec="ScaleOperator" parameter="@gammaShape.s:Subset6" scaleFactor="0.5" weight="0.1"/>
+    <operator id="KappaScaler.s:Subset5" spec="ScaleOperator" parameter="@kappa.s:Subset5" scaleFactor="0.5" weight="0.1"/>
     <operator id="FrequenciesExchanger.s:Subset6" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset6"/>
     </operator>
@@ -1145,8 +1123,8 @@ filter="1991-2475\3"/>
     <operator id="RateATScaler.s:Subset6" spec="ScaleOperator" parameter="@rateAT.s:Subset6" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateCGScaler.s:Subset6" spec="ScaleOperator" parameter="@rateCG.s:Subset6" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateGTScaler.s:Subset6" spec="ScaleOperator" parameter="@rateGT.s:Subset6" scaleFactor="0.5" weight="0.1"/>
-    <operator id="proportionInvariantScaler.s:Subset7" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset7" scaleFactor="0.5" weight="0.1"/>
-    <operator id="gammaShapeScaler.s:Subset7" spec="ScaleOperator" parameter="@gammaShape.s:Subset7" scaleFactor="0.5" weight="0.1"/>
+    <operator id="proportionInvariantScaler.s:Subset6" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset6" scaleFactor="0.5" weight="0.1"/>
+    <operator id="gammaShapeScaler.s:Subset6" spec="ScaleOperator" parameter="@gammaShape.s:Subset6" scaleFactor="0.5" weight="0.1"/>
     <operator id="FrequenciesExchanger.s:Subset7" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset7"/>
     </operator>
@@ -1155,7 +1133,8 @@ filter="1991-2475\3"/>
     <operator id="RateATScaler.s:Subset7" spec="ScaleOperator" parameter="@rateAT.s:Subset7" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateCGScaler.s:Subset7" spec="ScaleOperator" parameter="@rateCG.s:Subset7" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateGTScaler.s:Subset7" spec="ScaleOperator" parameter="@rateGT.s:Subset7" scaleFactor="0.5" weight="0.1"/>
-    <operator id="gammaShapeScaler.s:Subset8" spec="ScaleOperator" parameter="@gammaShape.s:Subset8" scaleFactor="0.5" weight="0.1"/>
+    <operator id="proportionInvariantScaler.s:Subset7" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset7" scaleFactor="0.5" weight="0.1"/>
+    <operator id="gammaShapeScaler.s:Subset7" spec="ScaleOperator" parameter="@gammaShape.s:Subset7" scaleFactor="0.5" weight="0.1"/>
     <operator id="FrequenciesExchanger.s:Subset8" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset8"/>
     </operator>
@@ -1164,8 +1143,7 @@ filter="1991-2475\3"/>
     <operator id="RateATScaler.s:Subset8" spec="ScaleOperator" parameter="@rateAT.s:Subset8" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateCGScaler.s:Subset8" spec="ScaleOperator" parameter="@rateCG.s:Subset8" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateGTScaler.s:Subset8" spec="ScaleOperator" parameter="@rateGT.s:Subset8" scaleFactor="0.5" weight="0.1"/>
-    <operator id="proportionInvariantScaler.s:Subset9" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset9" scaleFactor="0.5" weight="0.1"/>
-    <operator id="gammaShapeScaler.s:Subset9" spec="ScaleOperator" parameter="@gammaShape.s:Subset9" scaleFactor="0.5" weight="0.1"/>
+    <operator id="gammaShapeScaler.s:Subset8" spec="ScaleOperator" parameter="@gammaShape.s:Subset8" scaleFactor="0.5" weight="0.1"/>
     <operator id="FrequenciesExchanger.s:Subset9" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset9"/>
     </operator>
@@ -1174,8 +1152,8 @@ filter="1991-2475\3"/>
     <operator id="RateATScaler.s:Subset9" spec="ScaleOperator" parameter="@rateAT.s:Subset9" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateCGScaler.s:Subset9" spec="ScaleOperator" parameter="@rateCG.s:Subset9" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateGTScaler.s:Subset9" spec="ScaleOperator" parameter="@rateGT.s:Subset9" scaleFactor="0.5" weight="0.1"/>
-    <operator id="proportionInvariantScaler.s:Subset10" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset10" scaleFactor="0.5" weight="0.1"/>
-    <operator id="gammaShapeScaler.s:Subset10" spec="ScaleOperator" parameter="@gammaShape.s:Subset10" scaleFactor="0.5" weight="0.1"/>
+    <operator id="proportionInvariantScaler.s:Subset9" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset9" scaleFactor="0.5" weight="0.1"/>
+    <operator id="gammaShapeScaler.s:Subset9" spec="ScaleOperator" parameter="@gammaShape.s:Subset9" scaleFactor="0.5" weight="0.1"/>
     <operator id="FrequenciesExchanger.s:Subset10" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset10"/>
     </operator>
@@ -1184,6 +1162,8 @@ filter="1991-2475\3"/>
     <operator id="RateATScaler.s:Subset10" spec="ScaleOperator" parameter="@rateAT.s:Subset10" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateCGScaler.s:Subset10" spec="ScaleOperator" parameter="@rateCG.s:Subset10" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateGTScaler.s:Subset10" spec="ScaleOperator" parameter="@rateGT.s:Subset10" scaleFactor="0.5" weight="0.1"/>
+    <operator id="proportionInvariantScaler.s:Subset10" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset10" scaleFactor="0.5" weight="0.1"/>
+    <operator id="gammaShapeScaler.s:Subset10" spec="ScaleOperator" parameter="@gammaShape.s:Subset10" scaleFactor="0.5" weight="0.1"/>
     <operator id="FrequenciesExchanger.s:Subset11" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset11"/>
     </operator>
@@ -1193,8 +1173,6 @@ filter="1991-2475\3"/>
     <operator id="RateCGScaler.s:Subset11" spec="ScaleOperator" parameter="@rateCG.s:Subset11" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateGTScaler.s:Subset11" spec="ScaleOperator" parameter="@rateGT.s:Subset11" scaleFactor="0.5" weight="0.1"/>
     <operator id="gammaShapeScaler.s:Subset11" spec="ScaleOperator" parameter="@gammaShape.s:Subset11" scaleFactor="0.5" weight="0.1"/>
-    <operator id="proportionInvariantScaler.s:Subset12" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset12" scaleFactor="0.5" weight="0.1"/>
-    <operator id="gammaShapeScaler.s:Subset12" spec="ScaleOperator" parameter="@gammaShape.s:Subset12" scaleFactor="0.5" weight="0.1"/>
     <operator id="FrequenciesExchanger.s:Subset12" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset12"/>
     </operator>
@@ -1203,8 +1181,8 @@ filter="1991-2475\3"/>
     <operator id="RateATScaler.s:Subset12" spec="ScaleOperator" parameter="@rateAT.s:Subset12" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateCGScaler.s:Subset12" spec="ScaleOperator" parameter="@rateCG.s:Subset12" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateGTScaler.s:Subset12" spec="ScaleOperator" parameter="@rateGT.s:Subset12" scaleFactor="0.5" weight="0.1"/>
-    <operator id="proportionInvariantScaler.s:Subset13" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset13" scaleFactor="0.5" weight="0.1"/>
-    <operator id="gammaShapeScaler.s:Subset13" spec="ScaleOperator" parameter="@gammaShape.s:Subset13" scaleFactor="0.5" weight="0.1"/>
+    <operator id="proportionInvariantScaler.s:Subset12" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset12" scaleFactor="0.5" weight="0.1"/>
+    <operator id="gammaShapeScaler.s:Subset12" spec="ScaleOperator" parameter="@gammaShape.s:Subset12" scaleFactor="0.5" weight="0.1"/>
     <operator id="FrequenciesExchanger.s:Subset13" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
         <parameter idref="freqParameter.s:Subset13"/>
     </operator>
@@ -1213,6 +1191,8 @@ filter="1991-2475\3"/>
     <operator id="RateATScaler.s:Subset13" spec="ScaleOperator" parameter="@rateAT.s:Subset13" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateCGScaler.s:Subset13" spec="ScaleOperator" parameter="@rateCG.s:Subset13" scaleFactor="0.5" weight="0.1"/>
     <operator id="RateGTScaler.s:Subset13" spec="ScaleOperator" parameter="@rateGT.s:Subset13" scaleFactor="0.5" weight="0.1"/>
+    <operator id="proportionInvariantScaler.s:Subset13" spec="ScaleOperator" parameter="@proportionInvariant.s:Subset13" scaleFactor="0.5" weight="0.1"/>
+    <operator id="gammaShapeScaler.s:Subset13" spec="ScaleOperator" parameter="@gammaShape.s:Subset13" scaleFactor="0.5" weight="0.1"/>
     <operator id="ucldStdevScaler.c:Subset1" spec="ScaleOperator" parameter="@ucldStdev.c:Subset1" scaleFactor="0.5" weight="3.0"/>
     <operator id="CategoriesRandomWalk.c:Subset1" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Subset1" weight="10.0" windowSize="1"/>
     <operator id="CategoriesSwapOperator.c:Subset1" spec="SwapOperator" intparameter="@rateCategories.c:Subset1" weight="10.0"/>
@@ -1222,30 +1202,29 @@ filter="1991-2475\3"/>
         <up idref="ucldMean.c:Subset1"/>
         <down idref="Tree.t:Subset1"/>
     </operator>
-    <operator id="FrequenciesExchanger.s:Subset4" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
-        <parameter idref="freqParameter.s:Subset4"/>
+    <operator id="FrequenciesExchanger.s:Subset5" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:Subset5"/>
     </operator>
-    <logger id="tracelog" spec="Logger" fileName="alignment_asterophryinae_07192022.log" logEvery="100000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger id="tracelog" spec="Logger" fileName="alignment_asterophryinae_07192022.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
-        <log idref="treeLikelihood.Subset7"/>
-        <log idref="treeLikelihood.Subset8"/>
-        <log idref="treeLikelihood.Subset11"/>
-        <log idref="treeLikelihood.Subset10"/>
-        <log idref="treeLikelihood.Subset3"/>
-        <log idref="treeLikelihood.Subset6"/>
-        <log idref="treeLikelihood.Subset9"/>
+        <log idref="treeLikelihood.Subset4"/>
         <log idref="treeLikelihood.Subset1"/>
         <log id="TreeHeight.t:Subset1" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Subset1"/>
-        <log idref="treeLikelihood.Subset4"/>
+        <log idref="YuleModel.t:Subset1"/>
+        <log idref="birthRate.t:Subset1"/>
         <log idref="treeLikelihood.Subset2"/>
-        <log idref="treeLikelihood.Subset5"/>
+        <log idref="treeLikelihood.Subset10"/>
         <log idref="treeLikelihood.Subset12"/>
+        <log idref="treeLikelihood.Subset9"/>
+        <log idref="treeLikelihood.Subset3"/>
+        <log idref="treeLikelihood.Subset11"/>
+        <log idref="treeLikelihood.Subset5"/>
+        <log idref="treeLikelihood.Subset8"/>
+        <log idref="treeLikelihood.Subset6"/>
+        <log idref="treeLikelihood.Subset7"/>
         <log idref="treeLikelihood.Subset13"/>
-        <log idref="BirthDeath.t:Subset1"/>
-        <log idref="BDBirthRate.t:Subset1"/>
-        <log idref="BDDeathRate.t:Subset1"/>
         <log idref="freqParameter.s:Subset1"/>
         <log idref="rateAC.s:Subset1"/>
         <log idref="rateAG.s:Subset1"/>
@@ -1263,56 +1242,54 @@ filter="1991-2475\3"/>
         <log idref="rateGT.s:Subset3"/>
         <log idref="proportionInvariant.s:Subset3"/>
         <log idref="gammaShape.s:Subset3"/>
-        <log idref="kappa.s:Subset4"/>
+        <log idref="freqParameter.s:Subset4"/>
+        <log idref="rateAC.s:Subset4"/>
+        <log idref="rateAG.s:Subset4"/>
+        <log idref="rateAT.s:Subset4"/>
+        <log idref="rateCG.s:Subset4"/>
+        <log idref="rateGT.s:Subset4"/>
         <log idref="proportionInvariant.s:Subset4"/>
         <log idref="gammaShape.s:Subset4"/>
-        <log idref="freqParameter.s:Subset5"/>
-        <log idref="rateAC.s:Subset5"/>
-        <log idref="rateAG.s:Subset5"/>
-        <log idref="rateAT.s:Subset5"/>
-        <log idref="rateCG.s:Subset5"/>
-        <log idref="rateGT.s:Subset5"/>
-        <log idref="proportionInvariant.s:Subset5"/>
-        <log idref="gammaShape.s:Subset5"/>
-        <log idref="proportionInvariant.s:Subset6"/>
-        <log idref="gammaShape.s:Subset6"/>
+        <log idref="kappa.s:Subset5"/>
         <log idref="freqParameter.s:Subset6"/>
         <log idref="rateAC.s:Subset6"/>
         <log idref="rateAG.s:Subset6"/>
         <log idref="rateAT.s:Subset6"/>
         <log idref="rateCG.s:Subset6"/>
         <log idref="rateGT.s:Subset6"/>
-        <log idref="proportionInvariant.s:Subset7"/>
-        <log idref="gammaShape.s:Subset7"/>
+        <log idref="proportionInvariant.s:Subset6"/>
+        <log idref="gammaShape.s:Subset6"/>
         <log idref="freqParameter.s:Subset7"/>
         <log idref="rateAC.s:Subset7"/>
         <log idref="rateAG.s:Subset7"/>
         <log idref="rateAT.s:Subset7"/>
         <log idref="rateCG.s:Subset7"/>
         <log idref="rateGT.s:Subset7"/>
-        <log idref="gammaShape.s:Subset8"/>
+        <log idref="proportionInvariant.s:Subset7"/>
+        <log idref="gammaShape.s:Subset7"/>
         <log idref="freqParameter.s:Subset8"/>
         <log idref="rateAC.s:Subset8"/>
         <log idref="rateAG.s:Subset8"/>
         <log idref="rateAT.s:Subset8"/>
         <log idref="rateCG.s:Subset8"/>
         <log idref="rateGT.s:Subset8"/>
-        <log idref="proportionInvariant.s:Subset9"/>
-        <log idref="gammaShape.s:Subset9"/>
+        <log idref="gammaShape.s:Subset8"/>
         <log idref="freqParameter.s:Subset9"/>
         <log idref="rateAC.s:Subset9"/>
         <log idref="rateAG.s:Subset9"/>
         <log idref="rateAT.s:Subset9"/>
         <log idref="rateCG.s:Subset9"/>
         <log idref="rateGT.s:Subset9"/>
-        <log idref="proportionInvariant.s:Subset10"/>
-        <log idref="gammaShape.s:Subset10"/>
+        <log idref="proportionInvariant.s:Subset9"/>
+        <log idref="gammaShape.s:Subset9"/>
         <log idref="freqParameter.s:Subset10"/>
         <log idref="rateAC.s:Subset10"/>
         <log idref="rateAG.s:Subset10"/>
         <log idref="rateAT.s:Subset10"/>
         <log idref="rateCG.s:Subset10"/>
         <log idref="rateGT.s:Subset10"/>
+        <log idref="proportionInvariant.s:Subset10"/>
+        <log idref="gammaShape.s:Subset10"/>
         <log idref="freqParameter.s:Subset11"/>
         <log idref="rateAC.s:Subset11"/>
         <log idref="rateAG.s:Subset11"/>
@@ -1320,22 +1297,22 @@ filter="1991-2475\3"/>
         <log idref="rateCG.s:Subset11"/>
         <log idref="rateGT.s:Subset11"/>
         <log idref="gammaShape.s:Subset11"/>
-        <log idref="proportionInvariant.s:Subset12"/>
-        <log idref="gammaShape.s:Subset12"/>
         <log idref="freqParameter.s:Subset12"/>
         <log idref="rateAC.s:Subset12"/>
         <log idref="rateAG.s:Subset12"/>
         <log idref="rateAT.s:Subset12"/>
         <log idref="rateCG.s:Subset12"/>
         <log idref="rateGT.s:Subset12"/>
-        <log idref="proportionInvariant.s:Subset13"/>
-        <log idref="gammaShape.s:Subset13"/>
+        <log idref="proportionInvariant.s:Subset12"/>
+        <log idref="gammaShape.s:Subset12"/>
         <log idref="freqParameter.s:Subset13"/>
         <log idref="rateAC.s:Subset13"/>
         <log idref="rateAG.s:Subset13"/>
         <log idref="rateAT.s:Subset13"/>
         <log idref="rateCG.s:Subset13"/>
         <log idref="rateGT.s:Subset13"/>
+        <log idref="proportionInvariant.s:Subset13"/>
+        <log idref="gammaShape.s:Subset13"/>
         <log idref="ucldStdev.c:Subset1"/>
         <log id="rate.c:Subset1" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Subset1" tree="@Tree.t:Subset1"/>
         <log idref="a.prior"/>
@@ -1345,7 +1322,7 @@ filter="1991-2475\3"/>
         <log idref="d.prior"/>
         <log idref="e.prior"/>
         <log idref="f.prior"/>
-        <log idref="freqParameter.s:Subset4"/>
+        <log idref="freqParameter.s:Subset5"/>
     </logger>
     <logger id="screenlog" spec="Logger" logEvery="1000">
         <log idref="posterior"/>

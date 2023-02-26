@@ -261,5 +261,5 @@ begin sets;
 	charset Subset11 = 1482-1989\3 1992-2475\3;
 	charset Subset12 = 1990-2475\3;
 	charset Subset13 = 1991-2475\3;
-	charpartition PartitionFinder = GTR+I+G:Subset1, GTR+I:Subset2, GTR+I+G:Subset3, HKY+I+G:Subset4, GTR+I+G:Subset5, GTR+I+G:Subset6, GTR+I+G:Subset7, GTR+G:Subset8, GTR+I+G:Subset9, GTR+I+G:Subset10, GTR+G:Subset11, GTR+I+G:Subset12, GTR+I+G:Subset13;
+	charpartition PartitionFinder = GTR+I+G:Subset1, JC+I:Subset2, GTR+I+G:Subset3, GTR+I+G:Subset4, HKY:Subset5, GTR+I+G:Subset6, GTR+I+G:Subset7, GTR+G:Subset8, GTR+I+G:Subset9, GTR+I+G:Subset10, GTR+G:Subset11, GTR+I+G:Subset12, GTR+I+G:Subset13;
 end;
