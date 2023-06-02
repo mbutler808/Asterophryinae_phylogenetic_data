@@ -19,6 +19,11 @@ Ethan C. Hill, Mary J. Jarman, Claire J. Fraser, Diana F. Gao, Elizabeth R. Henr
 
 Ethan C. Hill, Claire J. Fraser, Diana F. Gao, Mary J. Jarman, Elizabeth R. Henry, Bulisa Iova, Allen Allison, Marguerite A. Butler. 2022. Resolving the deep phylogeny: Implications for early adaptive radiation, cryptic, and present-day ecological diversity of Papuan microhylid frogs. Molecular Phylogenetics and Evolution. 177:107618. ISSN 1055-7903. https://doi.org/10.1016/j.ympev.2022.107618
 
+### History
+
+2022-09-08 First release    
+2023-06-01 Updated alignment files to include a missing basepair in the BDNF alignment (no consequence to the analyses), and all downstream analyses and outputs.
+
 ### The repository contains:
 #### Tables
 * Table 1: **Specimen metadata** including collection site, type locality, species citation, lifestyle based on microhabitat use and citation, gps, elevation, site name and number, geological terrane, GenBank accession numbers by locus.
